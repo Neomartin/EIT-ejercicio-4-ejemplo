@@ -67,11 +67,11 @@ section.new-games {
 
 .game__category {
     font-size: 1.2rem;
-    color: #121212;
+    color: #f9f9f9;
     font-size: 14px;
     padding: .5rem 1rem;
     /* border-radius: 4px; */
-    background-color: yellowgreen;
+    background-color: rgb(88, 188, 21);
     position: absolute;
     top: 1rem;
     right: 1rem;
