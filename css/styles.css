@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #f9f9f9;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.title {
+    text-align: center;
+    margin: 50px 0;
+    padding: 1rem;
+    border-right: 5px solid rgb(41, 112, 225);
+    border-left: 5px solid rgb(41, 112, 225);
+    background-color: #222;
+    box-shadow: 0 0 16px 4px rgba(88, 143, 232, 0.6);
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+section.new-games {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 16px 4px rgba(88, 143, 232, 0.6);
+    margin-bottom: 2rem;
+
+    h2 {
+        margin: 1.5rem 0;
+    }
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    color: #121212;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.game__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid rgb(41, 112, 225);
+    padding: .75rem 0;
+
+    h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+}
+
+.game__category {
+    font-size: 1.2rem;
+    color: #121212;
+    font-size: 14px;
+    padding: .5rem 1rem;
+    /* border-radius: 4px; */
+    background-color: yellowgreen;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.game__image {
+    position: relative;
+    img {
+
+        width: 100%;
+        height: 400px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+    }
+}
+
+.game__info {
+    
+}
+
+.game__description {
+    margin-bottom: 1rem;
+
+    p {
+        margin-bottom: 1rem;
+    }
+}
+
+.game__price {
+    color: #777;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid rgb(41, 112, 225);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    /* align-items: flex-end; */
+    
+    div {
+        font-weight: bold;
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        /* text-align: right; */
+        color: rgb(41, 112, 225);
+    }
+}
+
+.game__footer {
+    text-align: center;
+
+    .game__buy {
+        display: inline-block;
+        padding: .75rem 1rem;
+        background-color: rgb(41, 112, 225);
+        color: #f9f9f9;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: rgb(33, 92, 188);
+        }
+    }
+}
+
+
+
+
+
